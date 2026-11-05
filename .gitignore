@@ -218,3 +218,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Environment variables and secrets
+.env.*
+!.env.example
+
+# Frontend dependencies
+node_modules/
+dist/
+.next/
+out/
+
+# Local datasets - do not upload raw data
+data/raw/
+data/processed/
+data/external/
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
